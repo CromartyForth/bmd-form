@@ -1,0 +1,53 @@
+#bmdlogo {
+    max-height:  2.5rem;
+}
+
+html,body {
+    height: 100%;
+    font-size: 1rem;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.gradient {
+    background: rgb(40,175,15);
+    background: linear-gradient(
+        90deg,
+        rgba(40,175,15,1) 69%,
+        rgba(242,240,38,1) 100%
+    );
+}
+
+.page-header {
+    margin-top: 4rem;
+    font-size: 1.5rem;
+    color: #fff;
+    height: auto;
+}
+
+.header-background {
+    
+    background: url(../img/chris-becker-6ErV8fw0l34-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.wave-container {
+
+    background-image: url(../img/chris-becker-6ErV8fw0l34-unsplash.jpg); 
+    background: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.wave-container > svg {
+    display: block;
+    height: 20rem;
+    width: 100%;
+}
