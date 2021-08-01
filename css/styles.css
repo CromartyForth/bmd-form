@@ -35,19 +35,6 @@ html,body {
     background-size: cover;
 }
 
-.wave-container {
-
-    background-image: url(../img/chris-becker-6ErV8fw0l34-unsplash.jpg); 
-    background: no-repeat;
-    background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-.wave-container > svg {
+.header-container > svg {
     display: block;
-    height: 20rem;
-    width: 100%;
 }
