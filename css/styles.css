@@ -38,3 +38,21 @@ html,body {
 .header-container > svg {
     display: block;
 }
+
+.text-shadow {
+    text-shadow: 1px 1px 3px #000000
+}
+
+.gallery img {
+    border-radius: 50%/2%;
+    filter: drop-shadow(0 0.75rem 0.75rem rgb(160, 159, 159));
+}
+
+.gallery h1, h2 {
+    text-decoration-color: #002b00;
+    text-shadow: 1px 1px 3px #ede43d
+}
+
+.gallery h1 {
+    margin-bottom: 2.5rem;
+}
